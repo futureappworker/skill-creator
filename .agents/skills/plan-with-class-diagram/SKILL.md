@@ -15,10 +15,10 @@ description: 在撰寫程式前先以 Mermaid 類別圖提案類別組織，取�
 1. Read [類別圖格式規範](rules/class-diagram-規範.md)並取得格式與繪製要求。
 2. Read [類別關係判定規範](rules/類別關係判定規範.md)並取得關係類型與依賴方向的判定要求。
 3. Think 依已載入規範決定類別間繼承、實作、組合、聚合與依賴關係。
-4. Think 決定本次計劃的兩位數編號、名稱、Mermaid classDiagram、類別職責與關係說明，以及回覆中的使用者確認問題。
+4. Think 決定本次計劃的兩位數編號、名稱、類別使用方式、Mermaid classDiagram、類別職責與關係說明，以及回覆中的使用者確認問題。
 5. Read [類別設計提案骨架](templates/類別設計提案.md)並取得固定內容結構。
 6. Read [類別設計提案範例](templates/類別設計提案.example.md)並取得完整使用方式。
-7. Write 依已載入樣板與範例及已載入規範，將 Mermaid classDiagram、類別職責及關係說明寫入專案根目錄的 `specs/plan/<NN>-<本次計劃名稱>/class-diagram-proposal.md`。
+7. Write 依已載入樣板與範例及已載入規範，將類別使用方式、Mermaid classDiagram、類別職責及關係說明寫入專案根目錄的 `specs/plan/<NN>-<本次計劃名稱>/class-diagram-proposal.md`。
 
 ## Phase 3: 等待確認
 
