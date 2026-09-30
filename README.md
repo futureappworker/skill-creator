@@ -32,6 +32,10 @@
 
 為已有 SOP 裡可確定性自動化的指定步驟建立 Python Script，並將原步驟改為使用 uv 執行 Script 的委派。先界定 AI 判斷與 Script 職責，再交給 `skill-form-script` 建立腳本、交給 `skill-form-sop` 改 SOP。指定步驟適合以 Python 加速時使用。
 
+### skill-engineering
+
+編排模組化方式建立或根本性優化 Cursor Agent Skill。先判斷是建立新 Skill 還是優化既有 Skill；優化時先分析根因並等使用者確認，再交給 `skill-form-sop` 重整 SOP，並依步驟交給 `skill-derive-rule`、`skill-derive-template`、`skill-derive-script` 衍生模組或刪除過時檔案。建立新 Skill、重構既有 Skill，或輸出不符合期待需要根本性優化時使用。
+
 ### plan-with-class-diagram
 
 開始寫程式前，先用 Mermaid 類別圖提案類別、職責與關係，寫入 `specs/plan/<編號>-<計劃名稱>/class-diagram-proposal.md`。使用者確認後才依圖的相依順序實作，最後對照類別圖檢查並修正。非小型實作、設計類別結構或重構模組時使用。
@@ -47,5 +51,6 @@
 ├── skill-derive-rule/         # 從指定步驟衍生 Rule File
 ├── skill-derive-template/     # 從指定步驟衍生 Template
 ├── skill-derive-script/       # 從指定步驟衍生 Python Script
+├── skill-engineering/         # 建立或根本性優化 Skill
 └── plan-with-class-diagram/   # 類別圖提案後再實作
 ```
